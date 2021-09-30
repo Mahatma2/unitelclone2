@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu-logo {
+    display: flex;
+    align-items: center;
+    padding: 2%; 
+}
+
+#menu ul li {
+    width: 150px;
+    display: inline-block;
+}
+/*
+#menu ul li :hover{
+    background:orange;
+}
+*/
+#menu ul{
+    padding: 0;
+}
+
+#menu ul ul {
+    display: none;
+}
+
+#menu ul a:hover > ul.sub-menu {
+    display: block;
+    display: flex;
+}
+
+#menu a{
+    color: rgb(21, 24, 219);
+    }
+    
+#i-search {
+    width: 100%;
+    margin-bottom: -100%;
+    cursor: pointer;
+}
+
+#logoMY {
+    margin-left: -20%;
+    cursor: pointer;
+}
+
+.carousel-inner{
+    width: 200%;
+    margin-left: -50%;
+     
+}
+
+#navegation{
+background-color:#e95018;
+color:#fff;
+height: 138px;
+padding: 55px;
+padding-left: 200px;
+}
+
+.baner1{
+ margin-bottom: 20%;
+ margin-top: -34%;
+ margin-left: 64%;
+    
+}
+
+.baner2{
+    display: flex;
+}
